@@ -6,13 +6,15 @@
 // import Transition from "./AdvancedHookRefs/Component6/Transition";
 // import ComponentPure from "./AdvancedHookRefs/ComponentPure";
 // import Derived from "./AdvancedHookRefs/Component8/Derived";
-import Lifting from "./AdvancedHookRefs/Component9/Lifting";
+// import Lifting from "./AdvancedHookRefs/Component9/Lifting";
+import Object from "./AdvancedHookRefs/10.Updating objects in state/Object"
 
 function App() {
   return (
     <div>
       <div className="AdvancedHookRefs">
-      <Lifting />
+        <Object />
+      {/* <Lifting /> */}
       {/* <Derived /> */}
       {/* < ComponentPure /> */}
       {/* <Transition /> */}
