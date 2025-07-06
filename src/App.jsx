@@ -6,21 +6,21 @@
 // import Transition from "./AdvancedHookRefs/Component6/Transition";
 // import ComponentPure from "./AdvancedHookRefs/ComponentPure";
 // import Derived from "./AdvancedHookRefs/Component8/Derived";
-import AddUser from "./AdvancedHookRefs/Component9/AddUser";
+import Lifting from "./AdvancedHookRefs/Component9/Lifting";
 
 function App() {
   return (
     <div>
       <div className="AdvancedHookRefs">
-      <AddUser />
-      <Derived />
-      < ComponentPure />
-      <Transition />
-      <FormStatus />
-      <ForwardRef />
-      <PassFunction />
-      <Uncontrolled />
-      <Hook />
+      <Lifting />
+      {/* <Derived /> */}
+      {/* < ComponentPure /> */}
+      {/* <Transition /> */}
+      {/* <FormStatus /> */}
+      {/* <ForwardRef /> */}
+      {/* <PassFunction /> */}
+      {/* <Uncontrolled /> */}
+      {/* <Hook /> */}
        </div>
     </div>
   );
