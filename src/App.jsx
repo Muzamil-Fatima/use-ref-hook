@@ -1,22 +1,27 @@
-// import Hook from "./AdvancedHookRefs/Hook";
-// import Uncontrolled from "./AdvancedHookRefs/Uncontrolled";
-// import PassFunction from "./AdvancedHookRefs/PassFunction";
-// import ForwardRef from "./AdvancedHookRefs/ForwardRef";
-// import FormStatus from "./AdvancedHookRefs/FormStatus";
-// import Transition from "./AdvancedHookRefs/Transition";
+// import Hook from "./AdvancedHookRefs/Component1/Hook";
+// import Uncontrolled from "./AdvancedHookRefs/Component2/Uncontrolled";
+// import PassFunction from "./AdvancedHookRefs/Component3/PassFunction";
+// import ForwardRef from "./AdvancedHookRefs/Component4/ForwardRef";
+// import FormStatus from "./AdvancedHookRefs/Component5/FormStatus";
+// import Transition from "./AdvancedHookRefs/Component6/Transition";
 // import ComponentPure from "./AdvancedHookRefs/ComponentPure";
-import Derived from "./AdvancedHookRefs/Derived";
+// import Derived from "./AdvancedHookRefs/Component8/Derived";
+import AddUser from "./AdvancedHookRefs/Component9/AddUser";
+
 function App() {
   return (
     <div>
+      <div className="AdvancedHookRefs">
+      <AddUser />
       <Derived />
-      {/* < ComponentPure /> */}
-      {/* <Transition /> */}
-      {/* <FormStatus /> */}
-      {/* <ForwardRef /> */}
-      {/* <PassFunction /> */}
-      {/* <Uncontrolled /> */}
-      {/* <Hook /> */}
+      < ComponentPure />
+      <Transition />
+      <FormStatus />
+      <ForwardRef />
+      <PassFunction />
+      <Uncontrolled />
+      <Hook />
+       </div>
     </div>
   );
 }
