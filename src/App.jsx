@@ -7,23 +7,34 @@
 // import ComponentPure from "./AdvancedHookRefs/ComponentPure";
 // import Derived from "./AdvancedHookRefs/Component8/Derived";
 // import Lifting from "./AdvancedHookRefs/Component9/Lifting";
-import Object from "./AdvancedHookRefs/10.Updating objects in state/Object"
+// import Object from "./AdvancedHookRefs/10.Updating objects in state/Object"
+// import Array from "./AdvancedHookRefs/11.Updating array in state/Array"
+// import Forms from "./AdvancedHookRefs/12.useAction Hook/Forms";
+// import User from "./AdvancedHookRefs/13.useId Hook/User";
+// import Fragments from "./AdvancedHookRefs/14.React JS Fragment/Fragments";
+
+import Custom from "./AdvancedHookRefs/15.Make Custom Hooks/Custom";
 
 function App() {
   return (
     <div>
       <div className="AdvancedHookRefs">
-        <Object />
-      {/* <Lifting /> */}
-      {/* <Derived /> */}
-      {/* < ComponentPure /> */}
-      {/* <Transition /> */}
-      {/* <FormStatus /> */}
-      {/* <ForwardRef /> */}
-      {/* <PassFunction /> */}
-      {/* <Uncontrolled /> */}
-      {/* <Hook /> */}
-       </div>
+       <Custom />
+        {/* <Fragments /> */}
+        {/* <User /> */}
+        {/* <Forms /> */}
+        {/* <Array /> */}
+        {/* <Object /> */}
+        {/* <Lifting /> */}
+        {/* <Derived /> */}
+        {/* < ComponentPure /> */}
+        {/* <Transition /> */}
+        {/* <FormStatus /> */}
+        {/* <ForwardRef /> */}
+        {/* <PassFunction /> */}
+        {/* <Uncontrolled /> */}
+        {/* <Hook /> */}
+      </div>
     </div>
   );
 }
