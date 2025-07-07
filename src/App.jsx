@@ -12,14 +12,22 @@
 // import Forms from "./AdvancedHookRefs/12.useAction Hook/Forms";
 // import User from "./AdvancedHookRefs/13.useId Hook/User";
 // import Fragments from "./AdvancedHookRefs/14.React JS Fragment/Fragments";
+// import Custom from "./AdvancedHookRefs/15.Make Custom Hooks/Custom";
 
-import Custom from "./AdvancedHookRefs/15.Make Custom Hooks/Custom";
+// ------------------------------
+// import Uni from "./ReactContextRouting/01.Context API/Uni"
+// import RouterReact from "./ReactContextRouting/02.Router/RouterReact";
+import NavBar from "./ReactContextRouting/02.Router/NavBar";
+
 
 function App() {
   return (
     <div>
+      <NavBar />
+      {/* <RouterReact /> */}
+      {/* <Uni /> */}
       <div className="AdvancedHookRefs">
-       <Custom />
+       {/* <Custom /> */}
         {/* <Fragments /> */}
         {/* <User /> */}
         {/* <Forms /> */}

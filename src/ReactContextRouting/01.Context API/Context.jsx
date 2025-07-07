@@ -1,8 +1,3 @@
-function Context(){
-    return(
-        <div>
+import { createContext } from "react";
 
-        </div>
-    )
-}
-export default Context;
+export const SubjectContext = createContext("Math");
