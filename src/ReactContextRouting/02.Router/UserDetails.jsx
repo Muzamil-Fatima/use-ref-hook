@@ -7,7 +7,9 @@ export default function UserDetails() {
     <div style={{ marginLeft: 20 }}>
       <h1>User Details Page</h1>
       <h2>User ID is: {paramsData.id}</h2>
-      <h3><Link to="/users">Back</Link></h3>
+      <h3>
+        <Link to="/users">Back</Link>
+      </h3>
     </div>
   );
 }
