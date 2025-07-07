@@ -16,15 +16,13 @@
 
 // ------------------------------
 // import Uni from "./ReactContextRouting/01.Context API/Uni"
-// import RouterReact from "./ReactContextRouting/02.Router/RouterReact";
-import NavBar from "./ReactContextRouting/02.Router/NavBar";
+import RouterReact from "./ReactContextRouting/02.Router/RouterReact";
 
 
 function App() {
   return (
     <div>
-      <NavBar />
-      {/* <RouterReact /> */}
+      <RouterReact />
       {/* <Uni /> */}
       <div className="AdvancedHookRefs">
        {/* <Custom /> */}
