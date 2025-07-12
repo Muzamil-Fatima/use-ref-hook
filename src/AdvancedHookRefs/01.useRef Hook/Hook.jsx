@@ -26,6 +26,7 @@ function Hook() {
     h1Ref.current.style.fontSize = "30px";
     h1Ref.current.innerText = "Hello Fatima, how are you?";
   };
+  
   return (
     <div className=" items-center justify-center h-screen">
       <h1 className="text-2xl font-bold ">useRef</h1>
