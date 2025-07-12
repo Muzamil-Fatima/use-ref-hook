@@ -10,7 +10,7 @@ export default function PageNotFound() {
       </div>
       <img
         src="https://static.vecteezy.com/system/resources/previews/010/886/263/non_2x/404-error-page-free-download-free-vector.jpg"
-        alt=""
+        alt="image"
       />
     </div>
   );
