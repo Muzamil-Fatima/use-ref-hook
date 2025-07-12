@@ -1,4 +1,5 @@
 import { useFormStatus } from "react-dom";
+
 function FormStatus() {
   const handleSubmit = async () => {
     new Promise((res) => setTimeout(res, 5000));
@@ -6,8 +7,10 @@ function FormStatus() {
   };
 
   function CustomerForm() {
+    
     const { pending } = useFormStatus();
     console.log(pending);
+
     return (
       <div>
         <input

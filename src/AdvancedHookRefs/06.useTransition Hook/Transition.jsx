@@ -1,5 +1,7 @@
 import { useTransition} from 'react';
+
 function Transition() {
+
     const [pending, startTransition]= useTransition();
 
     const handleButton=()=>{
@@ -7,7 +9,9 @@ function Transition() {
         startTransition(async ()=>{
         await new Promise(res => setTimeout(res, 5000));
         })
+
     }
+    
   return (
     <div className='m-5'>
       <h1 className="text-2xl font-bold">useTransition Hook in React JS</h1>

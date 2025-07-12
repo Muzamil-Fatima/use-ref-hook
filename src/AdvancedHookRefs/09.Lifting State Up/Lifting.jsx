@@ -1,8 +1,11 @@
 import { useState } from "react";
 import AddUser from "./AddUser";
 import DisplayUser from "./DisplayUser";
+
 function Lifting() {
+
   const [user, setUser] = useState("");
+
   return (
     <div>
       <h1 className="text-2xl font-bold bg-amber-300 m-6 p-4">
@@ -14,6 +17,7 @@ function Lifting() {
       <AddUser setUser={setUser} />
       <DisplayUser user={user} />
     </div>
+    
   );
 }
 export default Lifting;
